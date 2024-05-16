@@ -11,10 +11,10 @@ import random
 import pandas as pd
 
 # Replace DATABASE_URL with your actual connection string
-DATABASE_URL = "postgresql://todos_owner:od0gPGeTRn3U@ep-raspy-salad-a5rggins.us-east-2.aws.neon.tech/User_Auth?sslmode=require"
+DATABASE_URL = ""
 
 # Secret key for token generation, replace with a securely generated key
-SECRET_KEY = "80e9fcfa7c9213cb61d03af5b4a7fc8927f0f7d336b547d87643c4dad56cf6d7"
+SECRET_KEY = ""
 
 # Token expiration time (e.g., 30 minutes)
 TOKEN_EXPIRATION = timedelta(minutes=30)
